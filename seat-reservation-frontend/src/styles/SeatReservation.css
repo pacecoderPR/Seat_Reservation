@@ -1,0 +1,36 @@
+.seat-reservation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .selected-seats {
+    margin-bottom: 20px;
+  }
+  
+  .selected-seat {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #007bff; /* Blue for selected seats */
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .reserve-button {
+    padding: 10px 20px;
+    background-color: #28a745; /* Green for reserve button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reserve-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .message {
+    color: #d9534f; /* Red for error messages */
+    font-weight: bold;
+  }

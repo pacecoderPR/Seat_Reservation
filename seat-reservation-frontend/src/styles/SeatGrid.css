@@ -1,0 +1,6 @@
+.seat-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 60px);
+    gap: 10px;
+  }
+  

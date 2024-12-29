@@ -1,0 +1,24 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .seat-grid-container {
+    flex: 3; /* Takes up more space */
+    padding: 20px;
+  }
+  
+  .ticket-booking-container {
+    flex: 1; /* Takes up less space */
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background for contrast */
+    border-left: 1px solid #ddd; /* Divider between seat grid and booking */
+  }

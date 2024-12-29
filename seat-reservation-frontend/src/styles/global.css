@@ -1,0 +1,59 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body & General Layout */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Basic Link styling */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  /* Flexbox Layout for center alignment */
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Navbar Styling */
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: #4CAF50;
+    margin-bottom: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #45a049;
+  }
+  
+  /* Message Box */
+  .message {
+    color: #d9534f;
+    font-weight: bold;
+  }
+  
